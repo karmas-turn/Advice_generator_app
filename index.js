@@ -23,5 +23,10 @@ const Advice = async () => {
   }
 }
 
-dice.addEventListener("click", () =>
-  Advice());
+dice.addEventListener("click", () => {
+    setTimeout(() => {
+  dice.style.boxShadow = "0 0 12px hsl(150, 100%,66%)"},1000);
+
+  Advice();
+   dice.style.boxShadow = "";
+});
