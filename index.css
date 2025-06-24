@@ -84,9 +84,6 @@ main{
   margin-bottom: 1.5rem;
 }
 
-.dice:hover{
-  box-shadow: 0 0 20px  hsl(150, 100%, 66%);
-}
 
 .dice img{
   display: flex;
